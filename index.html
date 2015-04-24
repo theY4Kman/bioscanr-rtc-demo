@@ -13,7 +13,6 @@
 </div>
 
 <script type="text/javascript">
-    // States
     var STATE_LOGIN = 1,
       STATE_CONFER_WITH = 2,
       STATE_CONFERRING = 3;
@@ -71,7 +70,7 @@
                     onIncomingSession: function (event) {
                         videoWrapper.style.display = 'block';
                         session = event.session;
-                        session.remoteVideoElement = index;
+                        session.remoteVideoElement = video;
                         session.accept();
 
                         state = STATE_CONFERRING;
@@ -88,7 +87,7 @@
                     videoOut: true
                 }
             });
-            session.remoteVideoElement = index;
+            session.remoteVideoElement = video;
             state = STATE_CONFERRING;
         }
     };
@@ -113,7 +112,7 @@
         accountsList.appendChild(li);
     }
 </script>
-<script src="/js/underscore-min.js"></script>
-<script src="/js/acision/sdk.min.js"></script>
+<script src="js/underscore-min.js"></script>
+<script src="js/acision/sdk.min.js"></script>
 </body>
 </html>
