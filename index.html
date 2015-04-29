@@ -21,8 +21,8 @@
 
 <script type="text/javascript">
     var STATE_LOGIN = 1,
-      STATE_CONFER_WITH = 2,
-      STATE_CONFERRING = 3;
+        STATE_CONFER_WITH = 2,
+        STATE_CONFERRING = 3;
 
     var accounts = {
         'they4kman_gmail_com_0': 'Y@f3t6TkG',
@@ -92,6 +92,10 @@
                         session.accept();
 
                         state = STATE_CONFERRING;
+                    },
+                    onClose: function() {
+                        accountsWrapper.style.display = 'block';
+                        videoWrapper.style.display = 'none';
                     }
                 });
 
