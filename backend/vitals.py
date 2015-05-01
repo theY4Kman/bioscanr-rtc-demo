@@ -31,4 +31,4 @@ def latest_vitals():
 
 
 if __name__ == '__main__':
-    app.run('0.0.0.0', 2323, debug=True)
+    app.run('0.0.0.0', 8787, debug=True)
