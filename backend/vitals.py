@@ -16,7 +16,7 @@ LATEST_MAX = 5
 
 @app.route('/', methods=['POST'])
 def push_vitals():
-    data = request.get_json()
+    data = request.get_json(force=True)
     for key in VITALS_KEYS:
         if key in data:
             value = data[key]
