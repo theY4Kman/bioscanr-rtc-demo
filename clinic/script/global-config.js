@@ -27,6 +27,6 @@ var _DEFAULTS = {
   doctorName: 'Doctor Friendly'
 };
 
-var BIOSCANR = _.extend(_.clone(_DEFAULTS), _ZACH, {
+var BIOSCANR = _.extend(_.clone(_DEFAULTS), _JON, {
   // Throw any settings overrides here
 });
