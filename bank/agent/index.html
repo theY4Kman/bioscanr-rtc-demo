@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	
+		<title>Acision Banking App</title>
+		
+		<script src="js/jquery-v2.1.3.js"></script>
+		
+		<script src="js/underscore-min.js"></script> 
+		
+		<script src="js/purl.js"></script>
+		
+		<script src="js/sdk.min.js"></script>
+		
+		<script src="js/app.js"></script>
+		
+		<link rel="stylesheet" href="css/main.css" /> 
+		
+	</head>
+	<body>
+
+		<div class="video-chat">
+			<div class="video-chat-title">
+				<div class="logo">
+					<img src="../image/logo2.png" alt=""/>
+				</div>
+				<div class="title">
+					<h2>BIOSCANR APP DEMO</h2>
+				</div>
+				<div class="hangup">
+					<a href="#" id="disconnect" class="hide"><img src="../image/hangup.png" alt="" /></a>
+				</div>
+			</div>
+			<div class="agent-dashboard">
+				<div class="hide" id="agent-status">
+					<div class="set">
+						<p>Set your availability:</p>
+						<button id="availability" class="button">GO <span>ONLINE</span></button>
+					</div>					 
+					<div class="status">
+						<p>You are currently: <span id="status" style="font-weight:bold; color:red;">unavailable</span></p>
+					</div>					
+				</div>				
+			</div>
+			<div class="video">
+				<div class="loading hide">
+					<button id="accept" class="button hide">Accept Call</button>
+					<h2>Accept incoming customer call</h2>
+					<img src="../image/103.gif" />
+				</div>
+				<div class="remote">
+					<audio id="audioRemote"></audio>
+					<video id="videoRemote"></video>
+				</div>
+				<div class="local hide">
+					<audio id="audioLocal"></audio>
+					<video id="videoLocal"></video>
+				</div>
+			</div>
+		</div>
+
+		<audio id="ringtone" loop>
+			<source src="audio/uk-ringtone.wav" type="audio/wav">
+		</audio>	
+		
+		<!--<h2 style="margin-left:10px; padding-bottom:0px; margin-bottom:0px; text-transform:uppercase">Acision CES Demo Application</h2>
+		<h4 style="margin-left:10px; padding-bottom:0px; margin-top:5px; font-weight:normal;"><em><span id="agent-name" style="font-weight:bold;"></span></em> agent interface.</h4>
+		<p></p>
+		<hr>
+		
+		
+		<div class="hide" id="agent-status">
+			<p> Clik on the button below to set your agent availability when you want to connect to the platform. <br/><br/> <em>You are currently: <span id="status" style="font-weight:bold; color:red;">unavailable</span></em></p>
+			
+			
+			<button id="availability" class="button">GO <span>ONLINE</span></button>
+			
+			<p></p>
+			<hr>
+		</div>
+		
+		<button id="disconnect" class="button hide">Disconnect Call</button>
+		<button id="accept" class="button hide">Accept Call</button>
+		
+		<audio id="ringtone" loop>
+			<source src="audio/uk-ringtone.wav" type="audio/wav">
+		</audio>	
+		
+		<div id="local">
+			<audio id="audioLocal"></audio>
+			<video id="videoLocal" class="video"></video>
+		</div>
+	
+		<div id="remote">
+			<audio id="audioRemote"></audio>
+			<video id="videoRemote" class="video"></video>
+		</div>-->
+
+	
+	</body>
+</html>

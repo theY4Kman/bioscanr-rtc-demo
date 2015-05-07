@@ -1,0 +1,241 @@
+/******************************************************************************/
+/*	Headers																	  */
+/******************************************************************************/
+
+h1,h1 a	{	font-size:42px;	}
+h2,h2 a	{	font-size:34px; font-weight:300;	}
+h3,h3 a	{	font-size:30px;	}
+h4,h4 a	{	font-size:22px;	}
+h5,h5 a	{	font-size:20px;	}
+h6,h6 a	{	font-size:18px;	}
+
+/******************************************************************************/
+/*	Main																	  */
+/******************************************************************************/
+
+.main
+{
+	width:300px;
+}
+
+/******************************************************************************/
+/*	Navigation bar															  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Navigation bar / Logo												  */
+	/**************************************************************************/
+
+	#navigation-bar div.logo
+	{
+		float:none;
+	}
+	
+		#navigation-bar div.logo a
+		{
+			text-align:center;
+		}
+
+	/**************************************************************************/
+	/*	Navigation bar / Menu responsive									  */
+	/**************************************************************************/
+
+	#navigation-bar #menu-responsive
+	{
+		width:100%;
+		float:none;
+		clear:both;
+		padding-top:0px;
+		padding-bottom:15px;
+	}
+	
+		#navigation-bar #menu-responsive>select
+		{
+
+		}
+
+/******************************************************************************/
+/*	Home carousel															  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Home carousel / Bar													  */
+	/**************************************************************************/
+
+	div.home-carousel-bar
+	{
+		display:none;
+	}
+
+	/**************************************************************************/
+	/*	Home carousel / Slides												  */
+	/**************************************************************************/
+
+		/**********************************************************************/
+		/*	Home carousel / Slides / Title box								  */
+		/**********************************************************************/
+			
+		div.home-carousel-title-box
+		{
+			top:15%;
+		}
+		
+				div.home-carousel-title-box>div.main>a>span
+				{
+					padding:15px;
+					border-width:2px;
+				}
+				
+					div.home-carousel-title-box>div.main>a>span>span
+					{
+						font-size:24px;
+					}
+					
+					div.home-carousel-title-box>div.main>a>span>span+span
+					{
+						font-size:15px;
+						margin-top:10px;
+					}
+					
+	/**************************************************************************/
+	/*	Home carousel / Pagination											  */
+	/**************************************************************************/
+	
+	div.home-carousel-pagination
+	{
+		bottom:20px;
+	}
+	
+/******************************************************************************/
+/*	Subheader																  */
+/******************************************************************************/
+
+p.subheader
+{
+	font-size:16px;
+}
+
+/******************************************************************************/
+/*	Quotation list															  */
+/******************************************************************************/
+
+		/**********************************************************************/
+		/*	Quotation list / List element / Text							  */
+		/**********************************************************************/
+
+		ul.quotation-list li span.quotation-list-text
+		{
+			font-size:18px;
+		}
+		
+/******************************************************************************/
+/*  Button browse															  */
+/******************************************************************************/
+
+a.button-browse
+{
+	font-size: 22px;
+}
+
+/******************************************************************************/
+/*  Post date box															  */
+/*  Post comment count box													  */
+/******************************************************************************/
+		
+	div.post-date-box h3,
+	div.post-date-box h4,
+	div.post-comment-count-box h3,
+	div.post-comment-count-box h4
+	{
+		padding-top:14px;
+	}
+
+/******************************************************************************/
+/*  Post list																  */
+/******************************************************************************/
+
+		/**********************************************************************/
+		/*  Post list / Image												  */
+		/*  Post list / Content												  */
+		/**********************************************************************/
+
+		div.post div.post-list-image,
+		div.post div.post-list-content,
+		ul.post-list li div.post-list-image,
+		ul.post-list li div.post-list-content,
+		ul.post-list.post-list-1 li div.post-list-image,
+		ul.post-list.post-list-1 li div.post-list-content,
+		ul.post-list.post-list-2 li div.post-list-image,
+		ul.post-list.post-list-2 li div.post-list-content
+		{
+			float:none;
+			clear:both;
+			width:300px;
+			margin-left:0px;
+		}
+
+		/**********************************************************************/
+		/*  Post list / Image												  */
+		/**********************************************************************/
+
+		div.post div.post-list-image,
+		ul.post-list li div.post-list-image
+		{
+			overflow:visible;
+		}
+		
+			div.post div.post-list-image div.post-comment-count-box,
+			ul.post-list li div.post-list-image div.post-comment-count-box
+			{
+				top:-80px;
+				left:80px;
+			}
+			
+/******************************************************************************/
+/*	Comments					                                              */
+/******************************************************************************/
+
+	#comments #comments-list ul li
+	{
+		position:relative;
+		margin-bottom:50px;
+	}
+
+		#comments #comments-list ul ul,
+		#comments #comments-list ul li div.comment-content
+		{
+			margin-left:0px;
+		}
+
+				#comments #comments-list ul li div.comment-avatar
+				{
+					display:none
+				}
+				
+				#comments #comments-list ul li a.comment-reply-link
+				{
+					top:100%;
+					float:none;
+					width:100%;
+					text-align:right;
+					position:absolute;
+				}
+				
+				#comments #comments-list ul li div.comment-content
+				{
+					min-height:none;
+				}
+				
+					#comments #comments-list ul li div.comment-content>div
+					{
+						padding:10px;
+					}
+		
+/******************************************************************************/
+/*	Info list					                                              */
+/******************************************************************************/
+		
+			ul.info-list li h2 span
+			{
+				font-size:72px;
+			}

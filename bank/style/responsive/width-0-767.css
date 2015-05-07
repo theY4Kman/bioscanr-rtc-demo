@@ -1,0 +1,60 @@
+/******************************************************************************/
+/*	Layouts																	  */
+/******************************************************************************/
+
+	.layout-p-100>.column-left,
+	.layout-p-50x50>.column-left,
+	.layout-p-50x50>.column-right,	
+	.layout-p-33x33x33>.column-left,
+	.layout-p-33x33x33>.column-right,
+	.layout-p-33x33x33>.column-center,
+	.layout-p-25x25x25x25>.column-left,
+	.layout-p-25x25x25x25>.column-center-left,
+	.layout-p-25x25x25x25>.column-center-right,
+	.layout-p-25x25x25x25>.column-right,
+	.layout-p-20x20x20x20x20>.column-left,
+	.layout-p-20x20x20x20x20>.column-center-left,
+	.layout-p-20x20x20x20x20>.column-center,
+	.layout-p-20x20x20x20x20>.column-center-right,
+	.layout-p-20x20x20x20x20>.column-right,
+	.layout-p-66x33>.column-left,
+	.layout-p-66x33>.column-right,
+	.layout-p-33x66>.column-left,
+	.layout-p-33x66>.column-right
+	{
+		clear:both;
+		float:none;
+		width:100%;
+	}
+
+/******************************************************************************/
+/*	Navigation bar															  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Navigation bar / Logo												  */
+	/**************************************************************************/
+
+	#navigation-bar div.logo
+	{
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+
+	/**************************************************************************/
+	/*	Navigation bar / Menu												  */
+	/**************************************************************************/
+	
+	#navigation-bar #menu
+	{
+		display:none;
+	}
+
+	/**************************************************************************/
+	/*	Navigation bar / Menu responsive									  */
+	/**************************************************************************/
+
+	#navigation-bar #menu-responsive
+	{
+		display:block;
+	}
