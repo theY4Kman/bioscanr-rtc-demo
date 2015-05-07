@@ -26,7 +26,17 @@ def push_vitals():
 
 @app.route('/latest')
 def latest_vitals():
-    latest = {k: redis.lrange(k, 0, LATEST_MAX) for k in VITALS_KEYS}
+    latest = {}
+    for k in VITALS_KEYS:
+        raw_data = redis.lrange(k, 0, LATEST_MAX)
+        data = []
+        for datum in raw_data:
+            try:
+                datum = json.loads(datum)
+            except (ValueError, TypeError):
+                pass
+            data.append(datum)
+        latest[k] = data
     return jsonify(latest)
 
 
