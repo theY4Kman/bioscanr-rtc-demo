@@ -1,0 +1,32 @@
+.jke-ecgChart-background {
+  fill: rgba(0, 0, 0, 0);
+  shape-rendering: crispEdges
+}
+
+.jke-ecgChart-axis-x line, .jke-ecgChart-axis-x path {
+  fill: none;
+  shape-rendering: crispEdges;
+  stroke: #ddd;
+  stroke-width: 0
+}
+
+.jke-ecgChart-axis-y line, .jke-ecgChart-axis-y path {
+  fill: none;
+  shape-rendering: crispEdges;
+  stroke: #ddd;
+  stroke-width: 0
+}
+
+.jke-ecgChart-grid-x line, .jke-ecgChart-grid-x path {
+  stroke-width: 0;
+}
+
+.jke-ecgChart-grid-y line, .jke-ecgChart-grid-y path {
+  stroke-width: 0;
+}
+
+.jke-ecgChart-line {
+  fill: none;
+  stroke: #c90300;
+  stroke-width: 3px
+}
