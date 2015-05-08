@@ -101,7 +101,6 @@ $(document).ready(function (e) {
   //call on connection
   function onCallConnect() {
 
-    //hide loading
     $('.loading').hide();
 
   }
@@ -198,6 +197,10 @@ $(document).ready(function (e) {
       //hide loading
       $('.loading').hide();
 
+      // show vitals
+      $('.vitals').show().css('visibility', 'visible');
+      initializeEKG();
+
       //show local
       $('.local').fadeIn();
 
@@ -247,6 +250,118 @@ $(document).ready(function (e) {
     sdk.disconnect();
 
   });
+
+  // The EKG wave
+  var initializeEKG = (function () {
+
+    var
+      ID_TRIG = '#graph',
+      X1      = 'x1',
+      X2      = 'x2',
+      Y1      = 'y1',
+      Y2      = 'y2';
+
+    var $graph = $(ID_TRIG);
+
+    var
+      data    = [],
+      width   = $graph.width(),
+      height  = $graph.height(),
+      xmin    = 0,
+      xmax    = 10,
+      ymin    = -1.1,
+      ymax    = -ymin,
+      xScale  = d3.scale.linear(),
+      yScale  = d3.scale.linear(),
+      vis     = d3.select(ID_TRIG).append('svg:svg'),
+      decor   = vis.append('svg:g'),
+      graph   = vis.append('svg:g'),
+      path    = graph.append('svg:path'),
+      b       = graph.append('svg:line'),
+      c       = graph.append('svg:line'),
+      label   = graph.append('svg:text'),
+      sine    = d3.svg.line(),
+      time    = 0,
+      i;
+
+    for (i = 0; i < 84; i++) {
+      data.push(i * 10 / 84);
+    }
+
+    xScale
+      .domain([xmin, xmax])
+      .range([0, width]);
+
+    yScale
+      .domain([ymin, ymax])
+      .range([0, height]);
+
+    vis
+      .attr('class', 'trig')
+      .attr('width', width)
+      .attr('height', height);
+
+    sine
+      .x(function (d, i) { return xScale(d); })
+      .y(function (d, i) { return yScale(Math.sin(d - time)); });
+
+    // X-Axis
+    decor.append('svg:line')
+      .attr('class', 'axis')
+      .attr(X1, xScale(xmin))
+      .attr(Y1, yScale(0))
+      .attr(X2, xScale(xmax))
+      .attr(Y2, yScale(0));
+
+    decor.append('svg:line')
+      .attr('class', 'axis')
+      .attr(X1, xScale(Math.PI))
+      .attr(Y1, yScale(0))
+      .attr(X2, xScale(Math.PI))
+      .attr(Y2, yScale(0) + 8);
+
+    path.style('stroke', 'red');
+
+    // Y-Axis
+    decor.append('svg:line')
+      .attr('class', 'axis')
+      .attr(X1, xScale(0))
+      .attr(Y1, yScale(ymin))
+      .attr(X2, xScale(0))
+      .attr(Y2, yScale(ymax));
+
+    // Triangle
+    c
+      .attr(X1, xScale(0))
+      .attr(Y1, yScale(0));
+
+    function draw() {
+
+      var
+        x = xScale(Math.cos(time)),
+        y = yScale(-Math.sin(time));
+
+      path
+        .attr('d', sine(data));
+
+      c
+        .attr(X2, x)
+        .attr(Y2, y);
+
+      b
+        .attr(X1, xScale(0))
+        .attr(Y1, y)
+        .attr(X2, x)
+        .attr(Y2, y);
+
+      time += .1;
+
+      setTimeout(draw, 35);
+    }
+    draw();
+
+  });
+
 
 });
 

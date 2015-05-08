@@ -11,9 +11,11 @@
     <script src="/static/doctor/js/purl.js"></script>
     <script src="/static/doctor/js/sdk.min.js"></script>
 
+    <script src="//d3js.org/d3.v3.min.js"></script>
     <script src="{{ url_for('global_config') }}"></script>
     <script src="/static/doctor/js/app.js"></script>
 
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/static/doctor/css/main.css"/>
 
 </head>
@@ -36,6 +38,25 @@
             <button id="accept" class="button hide">Accept Call</button>
             <h2>Accept incoming customer call</h2>
             <img src="/static/image/103.gif"/>
+        </div>
+        <div class="vitals" style="visibility: hidden;">
+            <div class="name">
+                <span class="first">Kenneth</span>
+                <span class="last">Greenberg</span>
+            </div>
+            <div class="pulse">
+                <span class="label">Pulse</span>
+                <span class="value">76</span>
+            </div>
+            <div class="respiration">
+                <span class="label">Respiration</span>
+                <span class="value">14</span>
+            </div>
+            <div class="clearfix"></div>
+            <div class="ekg">
+                <span class="label">EKG</span>
+                <div id="graph"></div>
+            </div>
         </div>
         <div class="remote">
             <audio id="audioRemote"></audio>

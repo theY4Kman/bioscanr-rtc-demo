@@ -117,11 +117,68 @@ body {
   margin-bottom: 10px;
 }
 
+.clearfix {
+  clear: both;
+  overflow: auto;
+  zoom: 1;
+}
+
+.vitals {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  z-index: 8;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  padding: 30px;
+}
+
+.vitals .name {
+  font-size: 5vw;
+  margin-bottom: 6vh;
+}
+
+.vitals .pulse,
+.vitals .respiration {
+  float: left;
+}
+
+.vitals .pulse {
+  margin-right: 3vw;
+}
+
+.vitals .label {
+  display: block;
+  text-transform: uppercase;
+}
+
+.vitals .value {
+  font-size: 10vw;
+}
+
+.vitals .ekg {
+  margin-top: 3vh;
+}
+
+.vitals .ekg #graph {
+  margin-top: 2vh;
+  height: 15vh;
+}
+
+.vitals path {
+  fill: none;
+}
+
 .remote {
   width: 100%;
   height: 100%;
   z-index: 10;
-  float: left;
+  float: right;
   background-color: #101010;
 }
 
@@ -131,7 +188,6 @@ body {
   width: auto;
   height: 100%;
   min-height: 100%;
-  min-width: 100%;
   right: 0;
   bottom: 0;
   position: absolute;
