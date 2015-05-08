@@ -35,7 +35,7 @@ def venv():
 
 def stage_set(stage_name):
     env.stage = stage_name
-    for key, value in env.stages[stage_name]:
+    for key, value in env.stages[stage_name].iteritems():
         setattr(env, key, value)
 
 
