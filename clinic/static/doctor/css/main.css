@@ -143,6 +143,10 @@ body {
   margin-bottom: 6vh;
 }
 
+.vitals .name > span {
+  display: block;
+}
+
 .vitals .pulse,
 .vitals .respiration {
   float: left;

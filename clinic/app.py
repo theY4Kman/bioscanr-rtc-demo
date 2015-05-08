@@ -2,7 +2,7 @@ import jinja2
 from flask import Flask, render_template, request, url_for, redirect
 from flask.ext.login import login_user, login_required
 
-from clinic.user import login_manager, DoctorUser
+from clinic.user import login_manager, DoctorUser, PatientUser
 
 
 app = Flask(__name__, '/static')
@@ -70,6 +70,13 @@ def doctor_login():
             return redirect(url_for('doctor_portal'))
 
     return render_template('doctor/login.html')
+
+
+@app.context_processor
+def patient():
+    return {
+        'patient': PatientUser(),
+    }
 
 
 if __name__ == '__main__':

@@ -44,8 +44,9 @@
         </div>
         <div class="vitals" style="visibility: hidden;">
             <div class="name">
-                <span class="first">Kenneth</span>
-                <span class="last">Greenberg</span>
+            {% set first, last = patient.name.split(' ') %}
+                <span class="first">{{ first }}</span>
+                <span class="last">{{ last }}</span>
             </div>
             <div class="pulse">
                 <span class="label">Pulse</span>

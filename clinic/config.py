@@ -1,6 +1,6 @@
 ACISION_API_KEY = '49G0A50SiY4z'
 
-PATIENT_NAME = 'Kenneth Greenberg'
+PATIENT_NAME = 'Amanda Mills'  # Ensure this is in the form "First Last"
 PATIENT_USERNAME = 'jonadair_gmail_com_0'
 PATIENT_PASSWORD = 'cFi9mjgy3'
 
