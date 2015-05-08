@@ -1407,7 +1407,7 @@ ul.list
 		background-position:left 6px;
 	}
 	
-	ul.list.list-1 li>div	{ background-image:url('../image/icon_bullet/01.png'); }
+	ul.list.list-1 li>div	{ background-image:url('/static/image/icon_bullet/01.png'); }
 	
 /******************************************************************************/
 /*	17. Pricing list											       */
@@ -1609,7 +1609,7 @@ div.twitter-user-timeline
 			position:absolute;
 			background-repeat:no-repeat;
 			background-position:0px 0px;;
-			background-image:url('../image/twitter_background.png');			
+			background-image:url('/static/image/twitter_background.png');
 		}
 		
 			div.twitter-user-timeline .main div.twitter-user-timeline-list
@@ -1670,7 +1670,7 @@ ul.quotation-list
 		{
 			height:31px;
 			background-repeat:no-repeat;
-			background-image:url('../image/icon_quote.png');
+			background-image:url('/static/image/icon_quote.png');
 		}
 
 		ul.quotation-list li span.quotation-list-icon-up
@@ -1823,7 +1823,7 @@ textarea
 	min-height:100px;
 	background-repeat:no-repeat;
 	background-position:center center;
-	background-image:url('../image/preloader.gif');	
+	background-image:url('/static/image/preloader.gif');
 }
 	.preloader *
 	{
@@ -1893,17 +1893,17 @@ div.image-overlay-video
 	
 			div.image-overlay-url>a>span>span
 			{
-				background-image:url('../image/icon_media/hyperlink.png');	
+				background-image:url('/static/image/icon_media/hyperlink.png');
 			}
 
 			div.image-overlay-image>a>span>span
 			{
-				background-image:url('../image/icon_media/image.png');	
+				background-image:url('/static/image/icon_media/image.png');
 			}
 
 			div.image-overlay-video>a>span>span
 			{
-				background-image:url('../image/icon_media/movie.png');	
+				background-image:url('/static/image/icon_media/movie.png');
 			}
 	
 /******************************************************************************/
@@ -2081,40 +2081,40 @@ ul.social-list
 			border-style:solid;
 		}
 				
-		ul.social-list li a.social-list-bebo				{	background-image:url('../image/icon_social/bebo.png');			}
-		ul.social-list li a.social-list-behance				{	background-image:url('../image/icon_social/behance.png');		}
-		ul.social-list li a.social-list-bing				{	background-image:url('../image/icon_social/bing.png');			}
-		ul.social-list li a.social-list-blogger				{	background-image:url('../image/icon_social/blogger.png');		}
-		ul.social-list li a.social-list-deezer				{	background-image:url('../image/icon_social/deezer.png');		}
-		ul.social-list li a.social-list-designfloat			{	background-image:url('../image/icon_social/designfloat.png');	}
-		ul.social-list li a.social-list-deviantart			{	background-image:url('../image/icon_social/deviantart.png');	}
-		ul.social-list li a.social-list-digg				{	background-image:url('../image/icon_social/digg.png');			}
-		ul.social-list li a.social-list-dribble				{	background-image:url('../image/icon_social/dribble.png');		}
-		ul.social-list li a.social-list-email				{	background-image:url('../image/icon_social/email.png');			}
-		ul.social-list li a.social-list-envato				{	background-image:url('../image/icon_social/envato.png');		}
-		ul.social-list li a.social-list-facebook			{	background-image:url('../image/icon_social/facebook.png');		}
-		ul.social-list li a.social-list-flickr				{	background-image:url('../image/icon_social/flickr.png');		}
-		ul.social-list li a.social-list-forrst				{	background-image:url('../image/icon_social/forrst.png');		}
-		ul.social-list li a.social-list-foursquare			{	background-image:url('../image/icon_social/foursquare.png');	}
-		ul.social-list li a.social-list-friendfeed			{	background-image:url('../image/icon_social/friendfeed.png');	}
-		ul.social-list li a.social-list-googleplus			{	background-image:url('../image/icon_social/google_plus.png');	}
-		ul.social-list li a.social-list-instagram			{	background-image:url('../image/icon_social/instagram .png');	}
-		ul.social-list li a.social-list-linkedin			{	background-image:url('../image/icon_social/linkedin.png');		}
-		ul.social-list li a.social-list-myspace				{	background-image:url('../image/icon_social/myspace.png');		}
-		ul.social-list li a.social-list-picasa				{	background-image:url('../image/icon_social/picasa.png');		}
-		ul.social-list li a.social-list-pinterest			{	background-image:url('../image/icon_social/pinterest.png');		}
-		ul.social-list li a.social-list-reddit				{	background-image:url('../image/icon_social/reddit.png');		}
-		ul.social-list li a.social-list-rss					{	background-image:url('../image/icon_social/rss.png');			}
-		ul.social-list li a.social-list-skype				{	background-image:url('../image/icon_social/skype.png');			}
-		ul.social-list li a.social-list-soundcloud			{	background-image:url('../image/icon_social/soundcloud.png');	}
-		ul.social-list li a.social-list-spotify				{	background-image:url('../image/icon_social/spotify.png');		}
-		ul.social-list li a.social-list-stumbleupon			{	background-image:url('../image/icon_social/stumbleupo.png');	}
-		ul.social-list li a.social-list-technorati			{	background-image:url('../image/icon_social/technorati.png');	}
-		ul.social-list li a.social-list-tumblr				{	background-image:url('../image/icon_social/tumblr.png');		}
-		ul.social-list li a.social-list-twitter				{	background-image:url('../image/icon_social/twitter.png');		}
-		ul.social-list li a.social-list-vimeo				{	background-image:url('../image/icon_social/vimeo.png');			}
-		ul.social-list li a.social-list-xing				{	background-image:url('../image/icon_social/xing.png');			}
-		ul.social-list li a.social-list-youtube				{	background-image:url('../image/icon_social/youtube.png');		}
+		ul.social-list li a.social-list-bebo				{	background-image:url('/static/image/icon_social/bebo.png');			}
+		ul.social-list li a.social-list-behance				{	background-image:url('/static/image/icon_social/behance.png');		}
+		ul.social-list li a.social-list-bing				{	background-image:url('/static/image/icon_social/bing.png');			}
+		ul.social-list li a.social-list-blogger				{	background-image:url('/static/image/icon_social/blogger.png');		}
+		ul.social-list li a.social-list-deezer				{	background-image:url('/static/image/icon_social/deezer.png');		}
+		ul.social-list li a.social-list-designfloat			{	background-image:url('/static/image/icon_social/designfloat.png');	}
+		ul.social-list li a.social-list-deviantart			{	background-image:url('/static/image/icon_social/deviantart.png');	}
+		ul.social-list li a.social-list-digg				{	background-image:url('/static/image/icon_social/digg.png');			}
+		ul.social-list li a.social-list-dribble				{	background-image:url('/static/image/icon_social/dribble.png');		}
+		ul.social-list li a.social-list-email				{	background-image:url('/static/image/icon_social/email.png');			}
+		ul.social-list li a.social-list-envato				{	background-image:url('/static/image/icon_social/envato.png');		}
+		ul.social-list li a.social-list-facebook			{	background-image:url('/static/image/icon_social/facebook.png');		}
+		ul.social-list li a.social-list-flickr				{	background-image:url('/static/image/icon_social/flickr.png');		}
+		ul.social-list li a.social-list-forrst				{	background-image:url('/static/image/icon_social/forrst.png');		}
+		ul.social-list li a.social-list-foursquare			{	background-image:url('/static/image/icon_social/foursquare.png');	}
+		ul.social-list li a.social-list-friendfeed			{	background-image:url('/static/image/icon_social/friendfeed.png');	}
+		ul.social-list li a.social-list-googleplus			{	background-image:url('/static/image/icon_social/google_plus.png');	}
+		ul.social-list li a.social-list-instagram			{	background-image:url('/static/image/icon_social/instagram .png');	}
+		ul.social-list li a.social-list-linkedin			{	background-image:url('/static/image/icon_social/linkedin.png');		}
+		ul.social-list li a.social-list-myspace				{	background-image:url('/static/image/icon_social/myspace.png');		}
+		ul.social-list li a.social-list-picasa				{	background-image:url('/static/image/icon_social/picasa.png');		}
+		ul.social-list li a.social-list-pinterest			{	background-image:url('/static/image/icon_social/pinterest.png');		}
+		ul.social-list li a.social-list-reddit				{	background-image:url('/static/image/icon_social/reddit.png');		}
+		ul.social-list li a.social-list-rss					{	background-image:url('/static/image/icon_social/rss.png');			}
+		ul.social-list li a.social-list-skype				{	background-image:url('/static/image/icon_social/skype.png');			}
+		ul.social-list li a.social-list-soundcloud			{	background-image:url('/static/image/icon_social/soundcloud.png');	}
+		ul.social-list li a.social-list-spotify				{	background-image:url('/static/image/icon_social/spotify.png');		}
+		ul.social-list li a.social-list-stumbleupon			{	background-image:url('/static/image/icon_social/stumbleupo.png');	}
+		ul.social-list li a.social-list-technorati			{	background-image:url('/static/image/icon_social/technorati.png');	}
+		ul.social-list li a.social-list-tumblr				{	background-image:url('/static/image/icon_social/tumblr.png');		}
+		ul.social-list li a.social-list-twitter				{	background-image:url('/static/image/icon_social/twitter.png');		}
+		ul.social-list li a.social-list-vimeo				{	background-image:url('/static/image/icon_social/vimeo.png');			}
+		ul.social-list li a.social-list-xing				{	background-image:url('/static/image/icon_social/xing.png');			}
+		ul.social-list li a.social-list-youtube				{	background-image:url('/static/image/icon_social/youtube.png');		}
 
 /******************************************************************************/
 /*	29. Features list				                                              			       */
@@ -2210,266 +2210,266 @@ ul.feature-list
 		padding-bottom:0px;
 	}
 		
-	ul.feature-list.feature-list-icon-small li span.icon.icon-address			{ background-image:url('../image/icon_feature/small/address.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-adjust			{ background-image:url('../image/icon_feature/small/adjust.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-administration	{ background-image:url('../image/icon_feature/small/administration.png');	}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-app				{ background-image:url('../image/icon_feature/small/app.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-award				{ background-image:url('../image/icon_feature/small/award.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-balance			{ background-image:url('../image/icon_feature/small/balance.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-battery			{ background-image:url('../image/icon_feature/small/battery.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-bed				{ background-image:url('../image/icon_feature/small/bed.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-bin				{ background-image:url('../image/icon_feature/small/bin.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-binders			{ background-image:url('../image/icon_feature/small/binders.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-binoculars		{ background-image:url('../image/icon_feature/small/binoculars.png');		}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-bookmark			{ background-image:url('../image/icon_feature/small/bookmark.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-box				{ background-image:url('../image/icon_feature/small/box.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-briefcase			{ background-image:url('../image/icon_feature/small/briefcase.png');		}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-building			{ background-image:url('../image/icon_feature/small/building.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-calendar			{ background-image:url('../image/icon_feature/small/calendar.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-cart				{ background-image:url('../image/icon_feature/small/cart.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-chart				{ background-image:url('../image/icon_feature/small/chart.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-chat				{ background-image:url('../image/icon_feature/small/chat.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-clock				{ background-image:url('../image/icon_feature/small/clock.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-cloudupload		{ background-image:url('../image/icon_feature/small/cloud_upload.png');		}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-config			{ background-image:url('../image/icon_feature/small/config.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-creditcard		{ background-image:url('../image/icon_feature/small/credit_card.png');		}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-cross				{ background-image:url('../image/icon_feature/small/cross.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-database			{ background-image:url('../image/icon_feature/small/database.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-diary				{ background-image:url('../image/icon_feature/small/diary.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-document			{ background-image:url('../image/icon_feature/small/document.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-download			{ background-image:url('../image/icon_feature/small/download.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-fail				{ background-image:url('../image/icon_feature/small/fail.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-fax				{ background-image:url('../image/icon_feature/small/fax.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-firstaid			{ background-image:url('../image/icon_feature/small/first_aid.png');		}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-folder			{ background-image:url('../image/icon_feature/small/folder.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-form				{ background-image:url('../image/icon_feature/small/form.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-gallery			{ background-image:url('../image/icon_feature/small/gallery.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-glasses			{ background-image:url('../image/icon_feature/small/glasses.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-graph				{ background-image:url('../image/icon_feature/small/graph.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-heart				{ background-image:url('../image/icon_feature/small/heart.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-home				{ background-image:url('../image/icon_feature/small/home.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-hyperlink			{ background-image:url('../image/icon_feature/small/hyperlink.png');		}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-id				{ background-image:url('../image/icon_feature/small/id.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-image				{ background-image:url('../image/icon_feature/small/image.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-info				{ background-image:url('../image/icon_feature/small/info.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-keyboard			{ background-image:url('../image/icon_feature/small/keyboard.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-lab				{ background-image:url('../image/icon_feature/small/lab.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-laptop			{ background-image:url('../image/icon_feature/small/laptop.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-leaf				{ background-image:url('../image/icon_feature/small/leaf.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-list				{ background-image:url('../image/icon_feature/small/list.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-lock				{ background-image:url('../image/icon_feature/small/lock.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-luggage			{ background-image:url('../image/icon_feature/small/luggage.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-mail				{ background-image:url('../image/icon_feature/small/mail.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-mappointer		{ background-image:url('../image/icon_feature/small/map_pointer.png');		}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-mic				{ background-image:url('../image/icon_feature/small/mic.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-minus				{ background-image:url('../image/icon_feature/small/minus.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-mobile			{ background-image:url('../image/icon_feature/small/mobile.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-money				{ background-image:url('../image/icon_feature/small/money.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-movie				{ background-image:url('../image/icon_feature/small/movie.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-network			{ background-image:url('../image/icon_feature/small/network.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-oscilloscope		{ background-image:url('../image/icon_feature/small/oscilloscope.png');		}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-paintbrush		{ background-image:url('../image/icon_feature/small/paintbrush.png');		}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-people			{ background-image:url('../image/icon_feature/small/people.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-phone				{ background-image:url('../image/icon_feature/small/phone.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-piano				{ background-image:url('../image/icon_feature/small/piano.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-pill				{ background-image:url('../image/icon_feature/small/pill.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-pin				{ background-image:url('../image/icon_feature/small/pin.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-plus				{ background-image:url('../image/icon_feature/small/plus.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-printer			{ background-image:url('../image/icon_feature/small/printer.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-projector			{ background-image:url('../image/icon_feature/small/projector.png');		}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-questionmark		{ background-image:url('../image/icon_feature/small/question_mark.png');	}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-quote				{ background-image:url('../image/icon_feature/small/quote.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-restaurant		{ background-image:url('../image/icon_feature/small/restaurant.png');		}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-rss				{ background-image:url('../image/icon_feature/small/rss.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-screen			{ background-image:url('../image/icon_feature/small/screen.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-shield			{ background-image:url('../image/icon_feature/small/shield.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-signpost			{ background-image:url('../image/icon_feature/small/signpost.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-speaker			{ background-image:url('../image/icon_feature/small/speaker.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-success			{ background-image:url('../image/icon_feature/small/success.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-tablet			{ background-image:url('../image/icon_feature/small/tablet.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-tags				{ background-image:url('../image/icon_feature/small/tags.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-target			{ background-image:url('../image/icon_feature/small/target.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-tick				{ background-image:url('../image/icon_feature/small/tick.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-upload			{ background-image:url('../image/icon_feature/small/upload.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-video				{ background-image:url('../image/icon_feature/small/video.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-wall				{ background-image:url('../image/icon_feature/small/wall.png');				}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-wallet			{ background-image:url('../image/icon_feature/small/wallet.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-warning			{ background-image:url('../image/icon_feature/small/warning.png');			}
-	ul.feature-list.feature-list-icon-small li span.icon.icon-weight			{ background-image:url('../image/icon_feature/small/weight.png');			}	
+	ul.feature-list.feature-list-icon-small li span.icon.icon-address			{ background-image:url('/static/image/icon_feature/small/address.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-adjust			{ background-image:url('/static/image/icon_feature/small/adjust.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-administration	{ background-image:url('/static/image/icon_feature/small/administration.png');	}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-app				{ background-image:url('/static/image/icon_feature/small/app.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-award				{ background-image:url('/static/image/icon_feature/small/award.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-balance			{ background-image:url('/static/image/icon_feature/small/balance.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-battery			{ background-image:url('/static/image/icon_feature/small/battery.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-bed				{ background-image:url('/static/image/icon_feature/small/bed.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-bin				{ background-image:url('/static/image/icon_feature/small/bin.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-binders			{ background-image:url('/static/image/icon_feature/small/binders.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-binoculars		{ background-image:url('/static/image/icon_feature/small/binoculars.png');		}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-bookmark			{ background-image:url('/static/image/icon_feature/small/bookmark.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-box				{ background-image:url('/static/image/icon_feature/small/box.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-briefcase			{ background-image:url('/static/image/icon_feature/small/briefcase.png');		}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-building			{ background-image:url('/static/image/icon_feature/small/building.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-calendar			{ background-image:url('/static/image/icon_feature/small/calendar.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-cart				{ background-image:url('/static/image/icon_feature/small/cart.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-chart				{ background-image:url('/static/image/icon_feature/small/chart.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-chat				{ background-image:url('/static/image/icon_feature/small/chat.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-clock				{ background-image:url('/static/image/icon_feature/small/clock.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-cloudupload		{ background-image:url('/static/image/icon_feature/small/cloud_upload.png');		}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-config			{ background-image:url('/static/image/icon_feature/small/config.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-creditcard		{ background-image:url('/static/image/icon_feature/small/credit_card.png');		}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-cross				{ background-image:url('/static/image/icon_feature/small/cross.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-database			{ background-image:url('/static/image/icon_feature/small/database.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-diary				{ background-image:url('/static/image/icon_feature/small/diary.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-document			{ background-image:url('/static/image/icon_feature/small/document.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-download			{ background-image:url('/static/image/icon_feature/small/download.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-fail				{ background-image:url('/static/image/icon_feature/small/fail.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-fax				{ background-image:url('/static/image/icon_feature/small/fax.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-firstaid			{ background-image:url('/static/image/icon_feature/small/first_aid.png');		}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-folder			{ background-image:url('/static/image/icon_feature/small/folder.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-form				{ background-image:url('/static/image/icon_feature/small/form.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-gallery			{ background-image:url('/static/image/icon_feature/small/gallery.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-glasses			{ background-image:url('/static/image/icon_feature/small/glasses.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-graph				{ background-image:url('/static/image/icon_feature/small/graph.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-heart				{ background-image:url('/static/image/icon_feature/small/heart.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-home				{ background-image:url('/static/image/icon_feature/small/home.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-hyperlink			{ background-image:url('/static/image/icon_feature/small/hyperlink.png');		}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-id				{ background-image:url('/static/image/icon_feature/small/id.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-image				{ background-image:url('/static/image/icon_feature/small/image.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-info				{ background-image:url('/static/image/icon_feature/small/info.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-keyboard			{ background-image:url('/static/image/icon_feature/small/keyboard.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-lab				{ background-image:url('/static/image/icon_feature/small/lab.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-laptop			{ background-image:url('/static/image/icon_feature/small/laptop.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-leaf				{ background-image:url('/static/image/icon_feature/small/leaf.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-list				{ background-image:url('/static/image/icon_feature/small/list.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-lock				{ background-image:url('/static/image/icon_feature/small/lock.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-luggage			{ background-image:url('/static/image/icon_feature/small/luggage.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-mail				{ background-image:url('/static/image/icon_feature/small/mail.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-mappointer		{ background-image:url('/static/image/icon_feature/small/map_pointer.png');		}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-mic				{ background-image:url('/static/image/icon_feature/small/mic.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-minus				{ background-image:url('/static/image/icon_feature/small/minus.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-mobile			{ background-image:url('/static/image/icon_feature/small/mobile.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-money				{ background-image:url('/static/image/icon_feature/small/money.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-movie				{ background-image:url('/static/image/icon_feature/small/movie.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-network			{ background-image:url('/static/image/icon_feature/small/network.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-oscilloscope		{ background-image:url('/static/image/icon_feature/small/oscilloscope.png');		}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-paintbrush		{ background-image:url('/static/image/icon_feature/small/paintbrush.png');		}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-people			{ background-image:url('/static/image/icon_feature/small/people.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-phone				{ background-image:url('/static/image/icon_feature/small/phone.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-piano				{ background-image:url('/static/image/icon_feature/small/piano.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-pill				{ background-image:url('/static/image/icon_feature/small/pill.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-pin				{ background-image:url('/static/image/icon_feature/small/pin.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-plus				{ background-image:url('/static/image/icon_feature/small/plus.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-printer			{ background-image:url('/static/image/icon_feature/small/printer.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-projector			{ background-image:url('/static/image/icon_feature/small/projector.png');		}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-questionmark		{ background-image:url('/static/image/icon_feature/small/question_mark.png');	}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-quote				{ background-image:url('/static/image/icon_feature/small/quote.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-restaurant		{ background-image:url('/static/image/icon_feature/small/restaurant.png');		}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-rss				{ background-image:url('/static/image/icon_feature/small/rss.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-screen			{ background-image:url('/static/image/icon_feature/small/screen.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-shield			{ background-image:url('/static/image/icon_feature/small/shield.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-signpost			{ background-image:url('/static/image/icon_feature/small/signpost.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-speaker			{ background-image:url('/static/image/icon_feature/small/speaker.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-success			{ background-image:url('/static/image/icon_feature/small/success.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-tablet			{ background-image:url('/static/image/icon_feature/small/tablet.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-tags				{ background-image:url('/static/image/icon_feature/small/tags.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-target			{ background-image:url('/static/image/icon_feature/small/target.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-tick				{ background-image:url('/static/image/icon_feature/small/tick.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-upload			{ background-image:url('/static/image/icon_feature/small/upload.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-video				{ background-image:url('/static/image/icon_feature/small/video.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-wall				{ background-image:url('/static/image/icon_feature/small/wall.png');				}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-wallet			{ background-image:url('/static/image/icon_feature/small/wallet.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-warning			{ background-image:url('/static/image/icon_feature/small/warning.png');			}
+	ul.feature-list.feature-list-icon-small li span.icon.icon-weight			{ background-image:url('/static/image/icon_feature/small/weight.png');			}
 
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-address			{ background-image:url('../image/icon_feature/medium/address.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-adjust			{ background-image:url('../image/icon_feature/medium/adjust.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-administration	{ background-image:url('../image/icon_feature/medium/administration.png');	}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-app				{ background-image:url('../image/icon_feature/medium/app.png');				}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-award			{ background-image:url('../image/icon_feature/medium/award.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-balance			{ background-image:url('../image/icon_feature/medium/balance.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-battery			{ background-image:url('../image/icon_feature/medium/battery.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-bed				{ background-image:url('../image/icon_feature/medium/bed.png');				}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-bin				{ background-image:url('../image/icon_feature/medium/bin.png');				}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-binders			{ background-image:url('../image/icon_feature/medium/binders.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-binoculars		{ background-image:url('../image/icon_feature/medium/binoculars.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-bookmark			{ background-image:url('../image/icon_feature/medium/bookmark.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-box				{ background-image:url('../image/icon_feature/medium/box.png');				}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-briefcase		{ background-image:url('../image/icon_feature/medium/briefcase.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-building			{ background-image:url('../image/icon_feature/medium/building.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-calendar			{ background-image:url('../image/icon_feature/medium/calendar.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-cart				{ background-image:url('../image/icon_feature/medium/cart.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-chart			{ background-image:url('../image/icon_feature/medium/chart.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-chat				{ background-image:url('../image/icon_feature/medium/chat.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-clock			{ background-image:url('../image/icon_feature/medium/clock.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-cloudupload		{ background-image:url('../image/icon_feature/medium/cloud_upload.png');	}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-config			{ background-image:url('../image/icon_feature/medium/config.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-creditcard		{ background-image:url('../image/icon_feature/medium/credit_card.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-cross			{ background-image:url('../image/icon_feature/medium/cross.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-database			{ background-image:url('../image/icon_feature/medium/database.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-diary			{ background-image:url('../image/icon_feature/medium/diary.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-document			{ background-image:url('../image/icon_feature/medium/document.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-download			{ background-image:url('../image/icon_feature/medium/download.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-fail				{ background-image:url('../image/icon_feature/medium/fail.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-fax				{ background-image:url('../image/icon_feature/medium/fax.png');				}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-firstaid			{ background-image:url('../image/icon_feature/medium/first_aid.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-folder			{ background-image:url('../image/icon_feature/medium/folder.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-form				{ background-image:url('../image/icon_feature/medium/form.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-gallery			{ background-image:url('../image/icon_feature/medium/gallery.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-glasses			{ background-image:url('../image/icon_feature/medium/glasses.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-graph			{ background-image:url('../image/icon_feature/medium/graph.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-heart			{ background-image:url('../image/icon_feature/medium/heart.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-home				{ background-image:url('../image/icon_feature/medium/home.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-hyperlink		{ background-image:url('../image/icon_feature/medium/hyperlink.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-id				{ background-image:url('../image/icon_feature/medium/id.png');				}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-image			{ background-image:url('../image/icon_feature/medium/image.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-info				{ background-image:url('../image/icon_feature/medium/info.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-keyboard			{ background-image:url('../image/icon_feature/medium/keyboard.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-lab				{ background-image:url('../image/icon_feature/medium/lab.png');				}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-laptop			{ background-image:url('../image/icon_feature/medium/laptop.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-leaf				{ background-image:url('../image/icon_feature/medium/leaf.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-list				{ background-image:url('../image/icon_feature/medium/list.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-lock				{ background-image:url('../image/icon_feature/medium/lock.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-luggage			{ background-image:url('../image/icon_feature/medium/luggage.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-mail				{ background-image:url('../image/icon_feature/medium/mail.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-mappointer		{ background-image:url('../image/icon_feature/medium/map_pointer.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-mic				{ background-image:url('../image/icon_feature/medium/mic.png');				}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-minus			{ background-image:url('../image/icon_feature/medium/minus.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-mobile			{ background-image:url('../image/icon_feature/medium/mobile.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-money			{ background-image:url('../image/icon_feature/medium/money.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-movie			{ background-image:url('../image/icon_feature/medium/movie.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-network			{ background-image:url('../image/icon_feature/medium/network.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-oscilloscope		{ background-image:url('../image/icon_feature/medium/oscilloscope.png');	}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-paintbrush		{ background-image:url('../image/icon_feature/medium/paintbrush.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-people			{ background-image:url('../image/icon_feature/medium/people.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-phone			{ background-image:url('../image/icon_feature/medium/phone.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-piano			{ background-image:url('../image/icon_feature/medium/piano.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-pill				{ background-image:url('../image/icon_feature/medium/pill.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-pin				{ background-image:url('../image/icon_feature/medium/pin.png');				}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-plus				{ background-image:url('../image/icon_feature/medium/plus.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-printer			{ background-image:url('../image/icon_feature/medium/printer.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-projector		{ background-image:url('../image/icon_feature/medium/projector.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-questionmark		{ background-image:url('../image/icon_feature/medium/question_mark.png');	}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-quote			{ background-image:url('../image/icon_feature/medium/quote.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-restaurant		{ background-image:url('../image/icon_feature/medium/restaurant.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-rss				{ background-image:url('../image/icon_feature/medium/rss.png');				}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-screen			{ background-image:url('../image/icon_feature/medium/screen.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-shield			{ background-image:url('../image/icon_feature/medium/shield.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-signpost			{ background-image:url('../image/icon_feature/medium/signpost.png');		}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-speaker			{ background-image:url('../image/icon_feature/medium/speaker.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-success			{ background-image:url('../image/icon_feature/medium/success.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-tablet			{ background-image:url('../image/icon_feature/medium/tablet.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-tags				{ background-image:url('../image/icon_feature/medium/tags.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-target			{ background-image:url('../image/icon_feature/medium/target.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-tick				{ background-image:url('../image/icon_feature/medium/tick.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-upload			{ background-image:url('../image/icon_feature/medium/upload.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-video			{ background-image:url('../image/icon_feature/medium/video.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-wall				{ background-image:url('../image/icon_feature/medium/wall.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-wallet			{ background-image:url('../image/icon_feature/medium/wallet.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-warning			{ background-image:url('../image/icon_feature/medium/warning.png');			}
-	ul.feature-list.feature-list-icon-medium li span.icon.icon-weight			{ background-image:url('../image/icon_feature/medium/weight.png');			}	
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-address			{ background-image:url('/static/image/icon_feature/medium/address.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-adjust			{ background-image:url('/static/image/icon_feature/medium/adjust.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-administration	{ background-image:url('/static/image/icon_feature/medium/administration.png');	}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-app				{ background-image:url('/static/image/icon_feature/medium/app.png');				}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-award			{ background-image:url('/static/image/icon_feature/medium/award.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-balance			{ background-image:url('/static/image/icon_feature/medium/balance.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-battery			{ background-image:url('/static/image/icon_feature/medium/battery.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-bed				{ background-image:url('/static/image/icon_feature/medium/bed.png');				}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-bin				{ background-image:url('/static/image/icon_feature/medium/bin.png');				}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-binders			{ background-image:url('/static/image/icon_feature/medium/binders.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-binoculars		{ background-image:url('/static/image/icon_feature/medium/binoculars.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-bookmark			{ background-image:url('/static/image/icon_feature/medium/bookmark.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-box				{ background-image:url('/static/image/icon_feature/medium/box.png');				}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-briefcase		{ background-image:url('/static/image/icon_feature/medium/briefcase.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-building			{ background-image:url('/static/image/icon_feature/medium/building.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-calendar			{ background-image:url('/static/image/icon_feature/medium/calendar.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-cart				{ background-image:url('/static/image/icon_feature/medium/cart.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-chart			{ background-image:url('/static/image/icon_feature/medium/chart.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-chat				{ background-image:url('/static/image/icon_feature/medium/chat.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-clock			{ background-image:url('/static/image/icon_feature/medium/clock.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-cloudupload		{ background-image:url('/static/image/icon_feature/medium/cloud_upload.png');	}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-config			{ background-image:url('/static/image/icon_feature/medium/config.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-creditcard		{ background-image:url('/static/image/icon_feature/medium/credit_card.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-cross			{ background-image:url('/static/image/icon_feature/medium/cross.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-database			{ background-image:url('/static/image/icon_feature/medium/database.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-diary			{ background-image:url('/static/image/icon_feature/medium/diary.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-document			{ background-image:url('/static/image/icon_feature/medium/document.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-download			{ background-image:url('/static/image/icon_feature/medium/download.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-fail				{ background-image:url('/static/image/icon_feature/medium/fail.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-fax				{ background-image:url('/static/image/icon_feature/medium/fax.png');				}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-firstaid			{ background-image:url('/static/image/icon_feature/medium/first_aid.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-folder			{ background-image:url('/static/image/icon_feature/medium/folder.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-form				{ background-image:url('/static/image/icon_feature/medium/form.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-gallery			{ background-image:url('/static/image/icon_feature/medium/gallery.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-glasses			{ background-image:url('/static/image/icon_feature/medium/glasses.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-graph			{ background-image:url('/static/image/icon_feature/medium/graph.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-heart			{ background-image:url('/static/image/icon_feature/medium/heart.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-home				{ background-image:url('/static/image/icon_feature/medium/home.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-hyperlink		{ background-image:url('/static/image/icon_feature/medium/hyperlink.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-id				{ background-image:url('/static/image/icon_feature/medium/id.png');				}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-image			{ background-image:url('/static/image/icon_feature/medium/image.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-info				{ background-image:url('/static/image/icon_feature/medium/info.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-keyboard			{ background-image:url('/static/image/icon_feature/medium/keyboard.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-lab				{ background-image:url('/static/image/icon_feature/medium/lab.png');				}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-laptop			{ background-image:url('/static/image/icon_feature/medium/laptop.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-leaf				{ background-image:url('/static/image/icon_feature/medium/leaf.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-list				{ background-image:url('/static/image/icon_feature/medium/list.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-lock				{ background-image:url('/static/image/icon_feature/medium/lock.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-luggage			{ background-image:url('/static/image/icon_feature/medium/luggage.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-mail				{ background-image:url('/static/image/icon_feature/medium/mail.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-mappointer		{ background-image:url('/static/image/icon_feature/medium/map_pointer.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-mic				{ background-image:url('/static/image/icon_feature/medium/mic.png');				}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-minus			{ background-image:url('/static/image/icon_feature/medium/minus.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-mobile			{ background-image:url('/static/image/icon_feature/medium/mobile.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-money			{ background-image:url('/static/image/icon_feature/medium/money.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-movie			{ background-image:url('/static/image/icon_feature/medium/movie.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-network			{ background-image:url('/static/image/icon_feature/medium/network.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-oscilloscope		{ background-image:url('/static/image/icon_feature/medium/oscilloscope.png');	}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-paintbrush		{ background-image:url('/static/image/icon_feature/medium/paintbrush.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-people			{ background-image:url('/static/image/icon_feature/medium/people.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-phone			{ background-image:url('/static/image/icon_feature/medium/phone.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-piano			{ background-image:url('/static/image/icon_feature/medium/piano.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-pill				{ background-image:url('/static/image/icon_feature/medium/pill.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-pin				{ background-image:url('/static/image/icon_feature/medium/pin.png');				}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-plus				{ background-image:url('/static/image/icon_feature/medium/plus.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-printer			{ background-image:url('/static/image/icon_feature/medium/printer.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-projector		{ background-image:url('/static/image/icon_feature/medium/projector.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-questionmark		{ background-image:url('/static/image/icon_feature/medium/question_mark.png');	}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-quote			{ background-image:url('/static/image/icon_feature/medium/quote.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-restaurant		{ background-image:url('/static/image/icon_feature/medium/restaurant.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-rss				{ background-image:url('/static/image/icon_feature/medium/rss.png');				}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-screen			{ background-image:url('/static/image/icon_feature/medium/screen.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-shield			{ background-image:url('/static/image/icon_feature/medium/shield.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-signpost			{ background-image:url('/static/image/icon_feature/medium/signpost.png');		}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-speaker			{ background-image:url('/static/image/icon_feature/medium/speaker.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-success			{ background-image:url('/static/image/icon_feature/medium/success.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-tablet			{ background-image:url('/static/image/icon_feature/medium/tablet.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-tags				{ background-image:url('/static/image/icon_feature/medium/tags.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-target			{ background-image:url('/static/image/icon_feature/medium/target.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-tick				{ background-image:url('/static/image/icon_feature/medium/tick.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-upload			{ background-image:url('/static/image/icon_feature/medium/upload.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-video			{ background-image:url('/static/image/icon_feature/medium/video.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-wall				{ background-image:url('/static/image/icon_feature/medium/wall.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-wallet			{ background-image:url('/static/image/icon_feature/medium/wallet.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-warning			{ background-image:url('/static/image/icon_feature/medium/warning.png');			}
+	ul.feature-list.feature-list-icon-medium li span.icon.icon-weight			{ background-image:url('/static/image/icon_feature/medium/weight.png');			}
 
-	ul.feature-list.feature-list-icon-large li span.icon.icon-address			{ background-image:url('../image/icon_feature/large/address.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-adjust			{ background-image:url('../image/icon_feature/large/adjust.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-administration	{ background-image:url('../image/icon_feature/large/administration.png');	}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-app				{ background-image:url('../image/icon_feature/large/app.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-award				{ background-image:url('../image/icon_feature/large/award.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-balance			{ background-image:url('../image/icon_feature/large/balance.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-battery			{ background-image:url('../image/icon_feature/large/battery.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-bed				{ background-image:url('../image/icon_feature/large/bed.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-bin				{ background-image:url('../image/icon_feature/large/bin.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-binders			{ background-image:url('../image/icon_feature/large/binders.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-binoculars		{ background-image:url('../image/icon_feature/large/binoculars.png');		}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-bookmark			{ background-image:url('../image/icon_feature/large/bookmark.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-box				{ background-image:url('../image/icon_feature/large/box.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-briefcase			{ background-image:url('../image/icon_feature/large/briefcase.png');		}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-building			{ background-image:url('../image/icon_feature/large/building.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-calendar			{ background-image:url('../image/icon_feature/large/calendar.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-cart				{ background-image:url('../image/icon_feature/large/cart.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-chart				{ background-image:url('../image/icon_feature/large/chart.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-chat				{ background-image:url('../image/icon_feature/large/chat.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-clock				{ background-image:url('../image/icon_feature/large/clock.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-cloudupload		{ background-image:url('../image/icon_feature/large/cloud_upload.png');		}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-config			{ background-image:url('../image/icon_feature/large/config.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-creditcard		{ background-image:url('../image/icon_feature/large/credit_card.png');		}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-cross				{ background-image:url('../image/icon_feature/large/cross.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-database			{ background-image:url('../image/icon_feature/large/database.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-diary				{ background-image:url('../image/icon_feature/large/diary.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-document			{ background-image:url('../image/icon_feature/large/document.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-download			{ background-image:url('../image/icon_feature/large/download.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-fail				{ background-image:url('../image/icon_feature/large/fail.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-fax				{ background-image:url('../image/icon_feature/large/fax.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-firstaid			{ background-image:url('../image/icon_feature/large/first_aid.png');		}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-folder			{ background-image:url('../image/icon_feature/large/folder.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-form				{ background-image:url('../image/icon_feature/large/form.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-gallery			{ background-image:url('../image/icon_feature/large/gallery.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-glasses			{ background-image:url('../image/icon_feature/large/glasses.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-graph				{ background-image:url('../image/icon_feature/large/graph.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-heart				{ background-image:url('../image/icon_feature/large/heart.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-home				{ background-image:url('../image/icon_feature/large/home.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-hyperlink			{ background-image:url('../image/icon_feature/large/hyperlink.png');		}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-id				{ background-image:url('../image/icon_feature/large/id.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-image				{ background-image:url('../image/icon_feature/large/image.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-info				{ background-image:url('../image/icon_feature/large/info.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-keyboard			{ background-image:url('../image/icon_feature/large/keyboard.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-lab				{ background-image:url('../image/icon_feature/large/lab.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-laptop			{ background-image:url('../image/icon_feature/large/laptop.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-leaf				{ background-image:url('../image/icon_feature/large/leaf.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-list				{ background-image:url('../image/icon_feature/large/list.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-lock				{ background-image:url('../image/icon_feature/large/lock.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-luggage			{ background-image:url('../image/icon_feature/large/luggage.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-mail				{ background-image:url('../image/icon_feature/large/mail.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-mappointer		{ background-image:url('../image/icon_feature/large/map_pointer.png');		}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-mic				{ background-image:url('../image/icon_feature/large/mic.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-minus				{ background-image:url('../image/icon_feature/large/minus.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-mobile			{ background-image:url('../image/icon_feature/large/mobile.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-money				{ background-image:url('../image/icon_feature/large/money.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-movie				{ background-image:url('../image/icon_feature/large/movie.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-network			{ background-image:url('../image/icon_feature/large/network.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-oscilloscope		{ background-image:url('../image/icon_feature/large/oscilloscope.png');		}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-paintbrush		{ background-image:url('../image/icon_feature/large/paintbrush.png');		}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-people			{ background-image:url('../image/icon_feature/large/people.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-phone				{ background-image:url('../image/icon_feature/large/phone.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-piano				{ background-image:url('../image/icon_feature/large/piano.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-pill				{ background-image:url('../image/icon_feature/large/pill.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-pin				{ background-image:url('../image/icon_feature/large/pin.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-plus				{ background-image:url('../image/icon_feature/large/plus.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-printer			{ background-image:url('../image/icon_feature/large/printer.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-projector			{ background-image:url('../image/icon_feature/large/projector.png');		}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-questionmark		{ background-image:url('../image/icon_feature/large/question_mark.png');	}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-quote				{ background-image:url('../image/icon_feature/large/quote.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-restaurant		{ background-image:url('../image/icon_feature/large/restaurant.png');		}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-rss				{ background-image:url('../image/icon_feature/large/rss.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-screen			{ background-image:url('../image/icon_feature/large/screen.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-shield			{ background-image:url('../image/icon_feature/large/shield.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-signpost			{ background-image:url('../image/icon_feature/large/signpost.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-speaker			{ background-image:url('../image/icon_feature/large/speaker.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-success			{ background-image:url('../image/icon_feature/large/success.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-tablet			{ background-image:url('../image/icon_feature/large/tablet.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-tags				{ background-image:url('../image/icon_feature/large/tags.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-target			{ background-image:url('../image/icon_feature/large/target.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-tick				{ background-image:url('../image/icon_feature/large/tick.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-upload			{ background-image:url('../image/icon_feature/large/upload.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-video				{ background-image:url('../image/icon_feature/large/video.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-wall				{ background-image:url('../image/icon_feature/large/wall.png');				}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-wallet			{ background-image:url('../image/icon_feature/large/wallet.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-warning			{ background-image:url('../image/icon_feature/large/warning.png');			}
-	ul.feature-list.feature-list-icon-large li span.icon.icon-weight			{ background-image:url('../image/icon_feature/large/weight.png');			}		
+	ul.feature-list.feature-list-icon-large li span.icon.icon-address			{ background-image:url('/static/image/icon_feature/large/address.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-adjust			{ background-image:url('/static/image/icon_feature/large/adjust.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-administration	{ background-image:url('/static/image/icon_feature/large/administration.png');	}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-app				{ background-image:url('/static/image/icon_feature/large/app.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-award				{ background-image:url('/static/image/icon_feature/large/award.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-balance			{ background-image:url('/static/image/icon_feature/large/balance.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-battery			{ background-image:url('/static/image/icon_feature/large/battery.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-bed				{ background-image:url('/static/image/icon_feature/large/bed.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-bin				{ background-image:url('/static/image/icon_feature/large/bin.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-binders			{ background-image:url('/static/image/icon_feature/large/binders.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-binoculars		{ background-image:url('/static/image/icon_feature/large/binoculars.png');		}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-bookmark			{ background-image:url('/static/image/icon_feature/large/bookmark.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-box				{ background-image:url('/static/image/icon_feature/large/box.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-briefcase			{ background-image:url('/static/image/icon_feature/large/briefcase.png');		}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-building			{ background-image:url('/static/image/icon_feature/large/building.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-calendar			{ background-image:url('/static/image/icon_feature/large/calendar.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-cart				{ background-image:url('/static/image/icon_feature/large/cart.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-chart				{ background-image:url('/static/image/icon_feature/large/chart.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-chat				{ background-image:url('/static/image/icon_feature/large/chat.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-clock				{ background-image:url('/static/image/icon_feature/large/clock.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-cloudupload		{ background-image:url('/static/image/icon_feature/large/cloud_upload.png');		}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-config			{ background-image:url('/static/image/icon_feature/large/config.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-creditcard		{ background-image:url('/static/image/icon_feature/large/credit_card.png');		}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-cross				{ background-image:url('/static/image/icon_feature/large/cross.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-database			{ background-image:url('/static/image/icon_feature/large/database.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-diary				{ background-image:url('/static/image/icon_feature/large/diary.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-document			{ background-image:url('/static/image/icon_feature/large/document.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-download			{ background-image:url('/static/image/icon_feature/large/download.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-fail				{ background-image:url('/static/image/icon_feature/large/fail.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-fax				{ background-image:url('/static/image/icon_feature/large/fax.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-firstaid			{ background-image:url('/static/image/icon_feature/large/first_aid.png');		}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-folder			{ background-image:url('/static/image/icon_feature/large/folder.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-form				{ background-image:url('/static/image/icon_feature/large/form.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-gallery			{ background-image:url('/static/image/icon_feature/large/gallery.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-glasses			{ background-image:url('/static/image/icon_feature/large/glasses.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-graph				{ background-image:url('/static/image/icon_feature/large/graph.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-heart				{ background-image:url('/static/image/icon_feature/large/heart.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-home				{ background-image:url('/static/image/icon_feature/large/home.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-hyperlink			{ background-image:url('/static/image/icon_feature/large/hyperlink.png');		}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-id				{ background-image:url('/static/image/icon_feature/large/id.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-image				{ background-image:url('/static/image/icon_feature/large/image.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-info				{ background-image:url('/static/image/icon_feature/large/info.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-keyboard			{ background-image:url('/static/image/icon_feature/large/keyboard.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-lab				{ background-image:url('/static/image/icon_feature/large/lab.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-laptop			{ background-image:url('/static/image/icon_feature/large/laptop.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-leaf				{ background-image:url('/static/image/icon_feature/large/leaf.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-list				{ background-image:url('/static/image/icon_feature/large/list.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-lock				{ background-image:url('/static/image/icon_feature/large/lock.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-luggage			{ background-image:url('/static/image/icon_feature/large/luggage.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-mail				{ background-image:url('/static/image/icon_feature/large/mail.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-mappointer		{ background-image:url('/static/image/icon_feature/large/map_pointer.png');		}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-mic				{ background-image:url('/static/image/icon_feature/large/mic.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-minus				{ background-image:url('/static/image/icon_feature/large/minus.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-mobile			{ background-image:url('/static/image/icon_feature/large/mobile.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-money				{ background-image:url('/static/image/icon_feature/large/money.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-movie				{ background-image:url('/static/image/icon_feature/large/movie.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-network			{ background-image:url('/static/image/icon_feature/large/network.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-oscilloscope		{ background-image:url('/static/image/icon_feature/large/oscilloscope.png');		}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-paintbrush		{ background-image:url('/static/image/icon_feature/large/paintbrush.png');		}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-people			{ background-image:url('/static/image/icon_feature/large/people.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-phone				{ background-image:url('/static/image/icon_feature/large/phone.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-piano				{ background-image:url('/static/image/icon_feature/large/piano.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-pill				{ background-image:url('/static/image/icon_feature/large/pill.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-pin				{ background-image:url('/static/image/icon_feature/large/pin.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-plus				{ background-image:url('/static/image/icon_feature/large/plus.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-printer			{ background-image:url('/static/image/icon_feature/large/printer.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-projector			{ background-image:url('/static/image/icon_feature/large/projector.png');		}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-questionmark		{ background-image:url('/static/image/icon_feature/large/question_mark.png');	}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-quote				{ background-image:url('/static/image/icon_feature/large/quote.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-restaurant		{ background-image:url('/static/image/icon_feature/large/restaurant.png');		}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-rss				{ background-image:url('/static/image/icon_feature/large/rss.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-screen			{ background-image:url('/static/image/icon_feature/large/screen.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-shield			{ background-image:url('/static/image/icon_feature/large/shield.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-signpost			{ background-image:url('/static/image/icon_feature/large/signpost.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-speaker			{ background-image:url('/static/image/icon_feature/large/speaker.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-success			{ background-image:url('/static/image/icon_feature/large/success.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-tablet			{ background-image:url('/static/image/icon_feature/large/tablet.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-tags				{ background-image:url('/static/image/icon_feature/large/tags.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-target			{ background-image:url('/static/image/icon_feature/large/target.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-tick				{ background-image:url('/static/image/icon_feature/large/tick.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-upload			{ background-image:url('/static/image/icon_feature/large/upload.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-video				{ background-image:url('/static/image/icon_feature/large/video.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-wall				{ background-image:url('/static/image/icon_feature/large/wall.png');				}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-wallet			{ background-image:url('/static/image/icon_feature/large/wallet.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-warning			{ background-image:url('/static/image/icon_feature/large/warning.png');			}
+	ul.feature-list.feature-list-icon-large li span.icon.icon-weight			{ background-image:url('/static/image/icon_feature/large/weight.png');			}
 
 /******************************************************************************/
 /*	30. jQuery UI / Accordion									       */
@@ -2499,7 +2499,7 @@ ul.feature-list
 			padding:10px 15px 10px 15px;
 			background-repeat:no-repeat;
 			background-position:95% center;
-			background-image:url('../image/accordion_arrow_expand.png');
+			background-image:url('/static/image/accordion_arrow_expand.png');
 			
 		}
 		
@@ -2510,7 +2510,7 @@ ul.feature-list
 		
 		.ui-accordion.template-accordion>li>div.ui-accordion-header.ui-accordion-header-active>h5>a
 		{
-			background-image:url('../image/accordion_arrow_collapse.png');
+			background-image:url('/static/image/accordion_arrow_collapse.png');
 		}
 
 	.ui-accordion.template-accordion>li>div.ui-accordion-content
@@ -2697,14 +2697,14 @@ div.post-info-bar
 		margin-left:0px;
 	}
 	
-	div.post-info-bar>div.post-info-bar-date		{	background-image:url('../image/icon_post/icon_post_date.png');		}
-	div.post-info-bar>div.post-info-bar-comment		{	background-image:url('../image/icon_post/icon_post_comments.png');	}
-	div.post-info-bar>div.post-info-bar-category	{	background-image:url('../image/icon_post/icon_post_category.png');	}
+	div.post-info-bar>div.post-info-bar-date		{	background-image:url('/static/image/icon_post/icon_post_date.png');		}
+	div.post-info-bar>div.post-info-bar-comment		{	background-image:url('/static/image/icon_post/icon_post_comments.png');	}
+	div.post-info-bar>div.post-info-bar-category	{	background-image:url('/static/image/icon_post/icon_post_category.png');	}
 	
 	div.post-info-bar>div.post-info-bar-author		
 	{
 		padding-left:12px;
-		background-image:url('../image/icon_post/icon_post_author.png');	
+		background-image:url('/static/image/icon_post/icon_post_author.png');
 	}
 	
 /******************************************************************************/
