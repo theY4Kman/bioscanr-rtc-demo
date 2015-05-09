@@ -77,7 +77,7 @@ def doctor_login():
     return render_template('doctor/login.html')
 
 
-@app.route('/latest/')
+@app.route('/latest/sample-data/')
 def sample_latest_vitals():
     response = app.response_class(render_template('sample-latest.json'))
     response.headers['Content-Type'] = 'application/json'
@@ -117,7 +117,7 @@ VITALS_KEYS = 'ecg', 'heartRate', 'respirationRate'
 LATEST_MAX = 5
 
 
-@app.route('/latest')
+@app.route('/latest/')
 def latest_vitals():
     latest = {}
     for k in VITALS_KEYS:

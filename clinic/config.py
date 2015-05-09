@@ -1,5 +1,5 @@
 # URL to request latest vitals data from
-LATEST_VITALS_URL = '/latest'
+LATEST_VITALS_URL = '/latest/'
 
 # Used to store alert state
 REDIS_URL = 'redis://localhost/0'
