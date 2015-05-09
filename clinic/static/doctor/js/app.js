@@ -198,7 +198,6 @@ $(document).ready(function (e) {
       $('.loading').hide();
 
       // show vitals
-      $('.vitals').show().css('visibility', 'visible');
       initializeVitals();
 
       //show local
@@ -244,6 +243,13 @@ $(document).ready(function (e) {
   });
 
   var initializeVitals = function() {
+    // setup our html stuff
+    $('.toggle-vitals').show().click(function() {
+      var $vitals = $('.vitals');
+      var cur = $vitals.css('visibility');
+      $vitals.css('visibility', cur == 'visible' ? 'hidden' : 'visible');
+    });
+
     var $graph = $('#graph');
     $graph.ecgChart({
       width: $graph.width(),
@@ -357,7 +363,6 @@ $(document).ready(function (e) {
       $('.loading').hide();
 
       // show vitals
-      $('.vitals').show().css('visibility', 'visible');
       initializeVitals();
 
       //show local

@@ -128,6 +128,13 @@ body {
   zoom: 1;
 }
 
+.toggle-vitals {
+  cursor: pointer;
+  float: left;
+  line-height: 52px;
+  color: white;
+}
+
 .vitals {
   background-color: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -167,7 +174,7 @@ body {
 }
 
 .vitals .value {
-  font-size: 10vw;
+  font-size: 8vw;
 }
 
 .vitals .ekg {
