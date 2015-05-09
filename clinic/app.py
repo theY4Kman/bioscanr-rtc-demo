@@ -1,3 +1,5 @@
+import json
+
 import jinja2
 from flask import Flask, render_template, request, url_for, redirect, jsonify
 from flask.ext.login import login_user, login_required
@@ -106,6 +108,29 @@ def patient():
     return {
         'patient': PatientUser(),
     }
+
+
+# Keys POSTed and stored to redis
+VITALS_KEYS = 'ecg', 'heartRate', 'respirationRate'
+
+# Number of rolling POSTed data to return in /latest
+LATEST_MAX = 5
+
+
+@app.route('/latest')
+def latest_vitals():
+    latest = {}
+    for k in VITALS_KEYS:
+        raw_data = redis.lrange(k, 0, LATEST_MAX)
+        data = []
+        for datum in raw_data:
+            try:
+                datum = json.loads(datum)
+            except (ValueError, TypeError):
+                pass
+            data.append(datum)
+        latest[k] = data
+    return jsonify(latest)
 
 
 if __name__ == '__main__':
