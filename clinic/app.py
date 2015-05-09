@@ -72,6 +72,14 @@ def doctor_login():
     return render_template('doctor/login.html')
 
 
+@app.route('/latest/')
+@login_required
+def sample_latest_vitals():
+    response = app.response_class(render_template('sample-latest.json'))
+    response.headers['Content-Type'] = 'application/json'
+    return response
+
+
 @app.context_processor
 def patient():
     return {

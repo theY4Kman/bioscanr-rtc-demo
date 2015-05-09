@@ -1,4 +1,6 @@
 var BIOSCANR = {
+  latestEndpoint: '{{ config['LATEST_VITALS_URL']|escapejs }}',
+
   apiKey: '{{ config['ACISION_API_KEY']|escapejs }}',
 
   patientUsername: '{{ config['PATIENT_USERNAME']|escapejs }}',

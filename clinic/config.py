@@ -1,3 +1,6 @@
+# URL to request latest vitals data from
+LATEST_VITALS_URL = 'http://demo.bioscanr.com:2323/latest'
+
 ACISION_API_KEY = '49G0A50SiY4z'
 
 PATIENT_NAME = 'Amanda Mills'  # Ensure this is in the form "First Last"
