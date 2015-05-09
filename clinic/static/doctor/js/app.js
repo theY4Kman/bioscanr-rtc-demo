@@ -298,7 +298,7 @@ $(document).ready(function (e) {
         nextECG = _.normalize(nextECG, [-1.0, 1.0]);
 
         pulse.text(nextPulse);
-        respiration.text(nextRespiration);
+        respiration.text(nextRespiration.toFixed(1));
 
         if (!_.isEqual(lastECG, nextECG) || lastPulse != nextPulse) {
           supplyNewEcg(nextECG);
