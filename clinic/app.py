@@ -1,6 +1,7 @@
 import jinja2
-from flask import Flask, render_template, request, url_for, redirect
+from flask import Flask, render_template, request, url_for, redirect, jsonify
 from flask.ext.login import login_user, login_required
+from redis import StrictRedis
 
 from clinic.user import login_manager, DoctorUser, PatientUser
 
@@ -9,6 +10,8 @@ app = Flask(__name__, '/static')
 app.config.from_pyfile('config.py')
 app.config.from_pyfile('local_config.py', silent=True)
 login_manager.init_app(app)
+
+redis = StrictRedis.from_url(app.config['REDIS_URL'])
 
 
 _js_escapes = {
@@ -73,11 +76,29 @@ def doctor_login():
 
 
 @app.route('/latest/')
-@login_required
 def sample_latest_vitals():
     response = app.response_class(render_template('sample-latest.json'))
     response.headers['Content-Type'] = 'application/json'
     return response
+
+
+@app.route('/alert/')
+def should_alert():
+    try:
+        alert = int(redis.get('alert'))
+    except (TypeError, ValueError):
+        alert = False
+
+    if alert:
+        redis.delete('alert')
+
+    return jsonify(shouldAlert=alert)
+
+
+@app.route('/alert/set/')
+def set_alert():
+    redis.set('alert', 1)
+    return 'OK, alert set!'
 
 
 @app.context_processor

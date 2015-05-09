@@ -322,4 +322,17 @@ $(document).ready(function (e) {
     setInterval(requestNewData, 2000);
   };
 
+  var checkForAlertInterval = 500;
+  var checkForAlert = function() {
+    $.get('/alert/', function(data) {
+      if (data.shouldAlert) {
+        alert('OH MAN AMANDA IS, LIKE, DYING!')
+      } else {
+        setTimeout(checkForAlert, checkForAlertInterval);
+      }
+    }, 'json')
+  };
+
+  checkForAlert();
+
 });
