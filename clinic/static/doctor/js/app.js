@@ -253,7 +253,8 @@ $(document).ready(function (e) {
     var $graph = $('#graph');
     $graph.ecgChart({
       width: $graph.width(),
-      height: $graph.height()
+      height: $graph.height(),
+      xMax: 1000
     });
 
     var pulse = d3.select('#pulse'),
