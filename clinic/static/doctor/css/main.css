@@ -1,4 +1,9 @@
 
+#alert {
+  height: 25vh;
+  width: 40vw;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;

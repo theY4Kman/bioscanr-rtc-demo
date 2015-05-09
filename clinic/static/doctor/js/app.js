@@ -214,16 +214,8 @@ $(document).ready(function (e) {
       sdk.presence.setOwnPresentity({
         status: 'unavailable'
       });
-
-      //set current status
-      $('#status').css('color', 'red').text('unavailable');
-
-      //hide go online button
-      $('#availability').hide();
-
     });
-
-  };
+  }
 
   //disconnect call
   $('#disconnect').click(function () {
@@ -326,7 +318,7 @@ $(document).ready(function (e) {
   var checkForAlert = function() {
     $.get('/alert/', function(data) {
       if (data.shouldAlert) {
-        alert('OH MAN AMANDA IS, LIKE, DYING!')
+        $('#alert-container').modal();
       } else {
         setTimeout(checkForAlert, checkForAlertInterval);
       }
@@ -334,5 +326,45 @@ $(document).ready(function (e) {
   };
 
   checkForAlert();
+
+  $(document.body).on('click', '#call-patient', function() {
+    $.modal.close();
+
+    //connect to agent
+    session = sdk.webrtc.connect(BIOSCANR.patientUsername, {
+      onConnect: onCallConnect,
+      onConnecting: onCallConnecting,
+      onClose: onCallClose
+    }, {
+      streamConfig: {
+        audioIn: true,
+        audioOut: true,
+        videoIn: true,
+        videoOut: true
+      }
+    });
+
+    //local video render
+    session.localVideoElement = document.getElementById('videoLocal');
+
+    //remote video & audio render
+    session.remoteAudioElement = document.getElementById('audioRemote');
+    session.remoteVideoElement = document.getElementById('videoRemote');
+
+    $('video').prop('autoplay', true);
+
+      //hide loading
+      $('.loading').hide();
+
+      // show vitals
+      $('.vitals').show().css('visibility', 'visible');
+      initializeVitals();
+
+      //show local
+      $('.local').fadeIn();
+
+      //show disconnect button
+      $('#disconnect').fadeIn();
+  });
 
 });
