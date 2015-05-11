@@ -248,7 +248,11 @@ $(document).ready(function (e) {
   /*XXX################################################################################*/
   /*XXX################################################################################*/
 
+  var vitalsInitialized = false;
   var initializeVitals = function() {
+    if (vitalsInitialized) return;
+    vitalsInitialized = true;
+
     var $graph = $('#graph');
     $graph.ecgChart({
       width: $graph.width(),
@@ -409,6 +413,7 @@ $(document).ready(function (e) {
 
   // setup our html stuff
   $('.toggle-vitals').show().click(function() {
+    initializeVitals();
     var $vitals = $('.vitals');
     var cur = $vitals.css('visibility');
     $vitals.css('visibility', cur == 'visible' ? 'hidden' : 'visible');
