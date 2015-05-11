@@ -377,7 +377,7 @@ $(document).ready(function (e) {
     initializeVitals();
   };
 
-  Mousetrap.bind('command+shift+v', function() {
+  Mousetrap.bind(['command+shift+v', 'ctrl+k'], function() {
     window.showVitals();
   });
 
