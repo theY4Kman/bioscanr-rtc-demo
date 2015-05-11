@@ -308,17 +308,6 @@ $(document).ready(function (e) {
       }, interval);
     };
 
-    /*XXX################################################################################*/
-    /*XXX################################################################################*/
-      window.LOWER_LIMIT = 250;
-      window.UPPER_LIMIT = 750;
-
-    $('#lower').change(function() { window.LOWER_LIMIT = parseInt(this.value); }).val(window.LOWER_LIMIT);
-    $('#upper').change(function() { window.UPPER_LIMIT = parseInt(this.value); }).val(window.UPPER_LIMIT);
-    /*XXX################################################################################*/
-    /*XXX################################################################################*/
-    /*XXX################################################################################*/
-
     var requestNewData = function() {
       $.get(BIOSCANR.latestEndpoint, function(latest) {
         var lastPulse = data.pulse;
@@ -337,13 +326,7 @@ $(document).ready(function (e) {
         // Get rid of zeroes, which are useless data
         nextECG = _.filter(nextECG, function(n) { return n > 0; });
         // Normalize to number between -1 and 1
-        var range = window.UPPER_LIMIT - window.LOWER_LIMIT;
-        nextECG = _.map(nextECG, function(n) {
-          n -= 250;
-          n = Math.max(n, 0);
-          n = Math.min(n, range);
-          return n / range;
-        });
+        nextECG = _.normalize(nextECG, [-1.0, 1.0]);
 
         pulse.text(nextPulse);
         respiration.text(nextRespiration.toFixed(0));
