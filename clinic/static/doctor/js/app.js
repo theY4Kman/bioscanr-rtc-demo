@@ -318,7 +318,7 @@ $(document).ready(function (e) {
     };
 
     requestNewData();
-    setInterval(requestNewData, 2000);
+    setInterval(requestNewData, 500);
   };
 
   var checkForAlertInterval = 500;
