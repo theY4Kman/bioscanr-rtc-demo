@@ -1,3 +1,5 @@
+vex.defaultOptions.className = 'vex-theme-os';
+
 $(document).ready(function (e) {
 
   //sdk
@@ -345,20 +347,7 @@ $(document).ready(function (e) {
     setInterval(requestNewData, 500);
   };
 
-  var checkForAlertInterval = 500;
-  var checkForAlert = function() {
-    $.get('/alert/', function(data) {
-      if (data.shouldAlert) {
-        $('#alert-container').modal();
-      }
-    }, 'json')
-  };
-
-  setInterval(checkForAlert, checkForAlertInterval);
-
-  $(document.body).on('click', '#call-patient', function() {
-    $.modal.close();
-
+  var callPatient = function() {
     //connect to agent
     session = sdk.webrtc.connect(BIOSCANR.patientUsername, {
       onConnect: onCallConnect,
@@ -393,7 +382,24 @@ $(document).ready(function (e) {
 
       //show disconnect button
       $('#disconnect').fadeIn();
-  });
+  };
+
+  var checkForAlertInterval = 500;
+  var checkForAlert = function() {
+    $.get('/alert/', function(data) {
+      if (data.shouldAlert) {
+        vex.dialog.alert({
+            message: BIOSCANR.patientName + ' vitals escalated, severity escalated, chat unresponsive',
+            callback: function() {
+              callPatient();
+            }
+        });
+
+      }
+    }, 'json')
+  };
+
+  setInterval(checkForAlert, checkForAlertInterval);
 
   // For debugging purposes:
   window.showVitals = function() {

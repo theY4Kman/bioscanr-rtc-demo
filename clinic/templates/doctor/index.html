@@ -13,6 +13,7 @@
     <script src="/static/doctor/js/sdk.min.js"></script>
 
 
+    <script src="/static/doctor/js/vex.combined.min.js"></script>
     <script src="/static/doctor/js/mousetrap.min.js"></script>
     <script src="/static/doctor/js/jquery.simplemodal.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
@@ -23,6 +24,8 @@
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/static/doctor/css/jke-d3-ecg.css"/>
+    <link rel="stylesheet" href="/static/doctor/css/vex.css"/>
+    <link rel="stylesheet" href="/static/doctor/css/vex-theme-os.css"/>
     <link rel="stylesheet" href="/static/doctor/css/main.css"/>
 
 </head>
@@ -48,12 +51,6 @@
             <button id="accept" class="button hide">Accept Call</button>
             <h2>Accept incoming customer call</h2>
             <img src="/static/image/103.gif"/>
-        </div>
-        <div id="alert-container" class="hide">
-            <div style="background-color: white;">
-                <h1>Patient {{ patient.name }} vitals elevated, severity escalated, chat unresponsive</h1>
-                <button id="call-patient">Call {{ patient.name }}</button>
-            </div>
         </div>
         <div class="vitals" style="visibility: hidden;">
             <div class="name">

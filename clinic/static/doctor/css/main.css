@@ -1,7 +1,8 @@
 
+#simplemodal-container,
 #alert {
-  height: 25vh;
-  width: 40vw;
+  height: 10vh;
+  width: 15vw;
 }
 
 body {
