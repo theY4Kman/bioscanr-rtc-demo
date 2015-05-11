@@ -36,7 +36,7 @@ body {
 }
 
 .video-chat-title {
-  height: 50px;
+  height: 60px;
   background-color: #2555db;
   border-bottom: 3px #000 solid;
   width: 100%;
@@ -52,7 +52,7 @@ body {
 }
 
 .video-chat-title .logo img {
-  width: 175px;
+  height: 50px;
 }
 
 .video-chat-title .hangup {
@@ -81,7 +81,7 @@ body {
   color: #fff;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 15px;
+  margin-top: 18px;
 }
 
 .video {
@@ -132,7 +132,7 @@ body {
 .toggle-vitals {
   cursor: pointer;
   float: left;
-  line-height: 52px;
+  line-height: 63px;
   color: white;
 }
 

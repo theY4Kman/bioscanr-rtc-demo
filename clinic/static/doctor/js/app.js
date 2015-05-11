@@ -124,32 +124,20 @@ $(document).ready(function (e) {
     // offline - the remote party is offline or wants to appear offline.
     // notfound - the remote party does not exist or wants to appear to not exist.
 
-    var status = evt.status;
-
-    //clean remote html element
-    $('#videoLocal').attr('src', '');
-    $('#videoRemote').attr('src', '');
-
-    //pause ringing
-    document.getElementById('ringtone').pause();
-
-    //hide local
-    $('.local').hide();
-
-    //disconnect from session
-    setTimeout(function () {
-      sdk.disconnect();
-    }, 1000);
-
-    //show go online button
-    $('#availability').show();
-
-    //reload page
-    setTimeout(function () {
-      location.reload();
-    }, 3000);
-
-
+    //var status = evt.status;
+    //
+    ////clean remote html element
+    //$('#videoLocal').attr('src', '');
+    //$('#videoRemote').attr('src', '');
+    //
+    ////pause ringing
+    //document.getElementById('ringtone').pause();
+    //
+    ////hide local
+    //$('.local').hide();
+    //
+    ////show go online button
+    //$('#availability').show();
   }
 
   //incoming call
@@ -261,13 +249,6 @@ $(document).ready(function (e) {
   /*XXX################################################################################*/
 
   var initializeVitals = function() {
-    // setup our html stuff
-    $('.toggle-vitals').show().click(function() {
-      var $vitals = $('.vitals');
-      var cur = $vitals.css('visibility');
-      $vitals.css('visibility', cur == 'visible' ? 'hidden' : 'visible');
-    });
-
     var $graph = $('#graph');
     $graph.ecgChart({
       width: $graph.width(),
@@ -391,7 +372,7 @@ $(document).ready(function (e) {
       if (data.shouldAlert) {
         vex.dialog.alert({
             message: BIOSCANR.patientName + ' vitals escalated, severity escalated, chat unresponsive',
-            callback: function() {
+            callback: function(evt) {
               callPatient();
             }
         });
@@ -424,6 +405,13 @@ $(document).ready(function (e) {
   Mousetrap.bind(['ctrl+j', 'command+j'], function() {
     window.ecgUpdateMode += 1;
     window.ecgUpdateMode %= ECG_UPDATE_MODES;
+  });
+
+  // setup our html stuff
+  $('.toggle-vitals').show().click(function() {
+    var $vitals = $('.vitals');
+    var cur = $vitals.css('visibility');
+    $vitals.css('visibility', cur == 'visible' ? 'hidden' : 'visible');
   });
 
 });
