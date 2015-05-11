@@ -1,4 +1,5 @@
 vex.defaultOptions.className = 'vex-theme-os';
+vex.dialog.buttons.YES.text = 'Call Patient';
 
 $(document).ready(function (e) {
 
