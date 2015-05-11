@@ -6,7 +6,7 @@ REDIS_URL = 'redis://localhost/0'
 
 ACISION_API_KEY = '49G0A50SiY4z'
 
-PATIENT_NAME = 'Amanda Mills'  # Ensure this is in the form "First Last"
+PATIENT_NAME = 'Patient Amanda'  # Ensure this is in the form "First Last"
 PATIENT_USERNAME = 'jonadair_gmail_com_0'
 PATIENT_PASSWORD = 'cFi9mjgy3'
 
