@@ -114,7 +114,7 @@ def patient():
 VITALS_KEYS = 'ecg', 'heartRate', 'respirationRate'
 
 # Number of rolling POSTed data to return in /latest
-LATEST_MAX = 5
+LATEST_MAX = 15
 
 
 @app.route('/latest/')
