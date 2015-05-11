@@ -373,4 +373,14 @@ $(document).ready(function (e) {
       $('#disconnect').fadeIn();
   });
 
+  // For debugging purposes:
+  window.showVitals = function() {
+    $('.vitals').css('visibility', 'visible');
+    initializeVitals();
+  };
+
+  Mousetrap.bind('command+shift+v', function() {
+    window.showVitals();
+  });
+
 });
