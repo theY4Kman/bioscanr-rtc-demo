@@ -326,13 +326,11 @@ $(document).ready(function (e) {
     $.get('/alert/', function(data) {
       if (data.shouldAlert) {
         $('#alert-container').modal();
-      } else {
-        setTimeout(checkForAlert, checkForAlertInterval);
       }
     }, 'json')
   };
 
-  checkForAlert();
+  setInterval(checkForAlert, checkForAlertInterval);
 
   $(document.body).on('click', '#call-patient', function() {
     $.modal.close();
