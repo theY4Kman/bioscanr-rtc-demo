@@ -323,6 +323,9 @@ $(document).ready(function (e) {
           nextECG = latest.ecg[0] || data.ecg;
         }
 
+        // Get rid of zeroes, which are useless data
+        nextECG = _.filter(nextECG, function(n) { return n > 0; });
+        // Normalize to number between -1 and 1
         nextECG = _.normalize(nextECG, [-1.0, 1.0]);
 
         pulse.text(nextPulse);
