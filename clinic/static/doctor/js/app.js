@@ -242,6 +242,21 @@ $(document).ready(function (e) {
 
   });
 
+  /*XXX################################################################################*/
+  /*XXX################################################################################*/
+  /*XXX################################################################################*/
+  var ECG_DATA_MODE_ALL_BATCHES = 0;
+  var ECG_DATA_MODE_LAST_BATCH = 1;
+  var ECG_DATA_MODES = 2;
+
+  var ECG_UPDATE_MODE_CONSTANT = 0;
+  var ECG_UPDATE_MODE_FIRST = 1;
+  var ECG_UPDATE_MODES = 2;
+  /*XXX################################################################################*/
+  /*XXX################################################################################*/
+  /*XXX################################################################################*/
+  /*XXX################################################################################*/
+
   var initializeVitals = function() {
     // setup our html stuff
     $('.toggle-vitals').show().click(function() {
@@ -300,7 +315,13 @@ $(document).ready(function (e) {
 
         var nextPulse = latest.heartRate[0] || data.pulse;
         var nextRespiration  = latest.respirationRate[0] || data.respiration;
-        var nextECG = Array.prototype.concat.apply([], latest.ecg) || data.ecg;
+
+        var nextECG;
+        if (window.ecgDataMode == ECG_DATA_MODE_ALL_BATCHES) {
+          nextECG = Array.prototype.concat.apply([], latest.ecg) || data.ecg;
+        } else if (window.ecgDataMode == ECG_DATA_MODE_LAST_BATCH) {
+          nextECG = latest.ecg[0] || data.ecg;
+        }
 
         nextECG = _.normalize(nextECG, [-1.0, 1.0]);
 
@@ -379,6 +400,20 @@ $(document).ready(function (e) {
 
   Mousetrap.bind(['command+shift+v', 'ctrl+k'], function() {
     window.showVitals();
+  });
+
+  /*XXX################################################################################*/
+  window.ecgDataMode = 0;
+  window.ecgUpdateMode = 0;
+
+  Mousetrap.bind(['ctrl+h', 'command+h'], function() {
+    window.ecgDataMode += 1;
+    window.ecgDataMode %= ECG_DATA_MODES;
+  });
+
+  Mousetrap.bind(['ctrl+j', 'command+j'], function() {
+    window.ecgUpdateMode += 1;
+    window.ecgUpdateMode %= ECG_UPDATE_MODES;
   });
 
 });
