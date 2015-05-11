@@ -300,7 +300,7 @@ $(document).ready(function (e) {
 
         var nextPulse = latest.heartRate[0] || data.pulse;
         var nextRespiration  = latest.respirationRate[0] || data.respiration;
-        var nextECG = latest.ecg[0] || data.ecg;
+        var nextECG = Array.prototype.concat.apply([], latest.ecg) || data.ecg;
 
         nextECG = _.normalize(nextECG, [-1.0, 1.0]);
 
