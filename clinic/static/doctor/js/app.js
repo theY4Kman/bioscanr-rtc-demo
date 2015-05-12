@@ -117,6 +117,8 @@ $(document).ready(function (e) {
   //call on close
   function onCallClose(evt) {
 
+    $('.vitals').css('visibility', 'hidden');
+
     //get on call close status
     //https://docs.sdk.acision.com/api/latest/javascript/module-WebRTC-Session.html#CloseEvent
     // normal - the session ended normally (including timed out).
